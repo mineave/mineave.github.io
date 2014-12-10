@@ -52,6 +52,12 @@ permalink:   /:categories/:title/
 # Amount of post to show on home page
 paginate: 5
 
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Asia/Shanghai
+future:      true
+pygments:    true
+markdown:    kramdown
+
 kramdown:
   auto_ids: true
   footnote_nr: 1
